@@ -1,0 +1,20 @@
+# Simulation artifacts
+*.log
+*.vcd
+*.vpd
+*.fsdb
+sim.out
+csrc/
+simv
+simv.daidir/
+work/
+transcript
+modelsim.ini
+
+# IDE settings
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
