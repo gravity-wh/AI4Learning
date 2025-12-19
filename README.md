@@ -16,7 +16,13 @@ AI4ICLearning/
 ├── 00_Global_Knowledge/    # Deep theoretical derivations (PLL, Logical Effort, etc.)
 ├── 01_Advanced_Digital_IC/ # Course 1: Architecture, PPA, and Physics
 ├── 02_SoC_Verification/    # Course 2: SystemVerilog, UVM, and Testbenches
-└── 03_Mixed_Signal_IC/     # Course 3: Modeling, PLLs, ADCs, and Calibration
+├── 03_Mixed_Signal_IC/     # Course 3: Modeling, PLLs, ADCs, and Calibration
+├── 04_UCLA_EE215A/         # Course 4: Introduction to Digital ICs (UCLA)
+├── 06_Embedded_C_Rust/     # Course 6: C & Rust Embedded Programming
+├── 07_Data_Structures/     # Course 7: Data Structures and Algorithms
+├── 08_C_RISC_V_Assembly/   # Course 8: C Language and RISC-V Assembly
+├── 09_Compilers/           # Course 9: Compiler Principles and RISC-V Backend
+└── 10_Bootloader_Development/ # Course 10: Bootloader Development and System Boot
 ```
 
 ## 📚 Curriculum Highlights
@@ -35,6 +41,36 @@ Focuses on modern verification methodologies using SystemVerilog.
 Focuses on system-level modeling and digitally-assisted analog design.
 *   **Key Topics**: PLL Stability Analysis (Type-II), Jitter & Phase Noise, TI-ADC Calibration (LMS Algorithms).
 *   **Labs**: PLL Behavioral Modeling, ADC Non-ideality Modeling.
+
+### [04_UCLA_EE215A](./04_UCLA_EE215A/)
+Introduction to Digital Integrated Circuits based on UCLA curriculum.
+*   **Key Topics**: CMOS Fundamentals, Logic Gate Design, Sequential Circuits, Interconnect Modeling, Power Analysis.
+*   **Labs**: CMOS Inverter Characterization, Logic Gate Implementation, D Flip-Flop Design.
+
+### [06_Embedded_C_Rust](./06_Embedded_C_Rust/)
+C & Rust Embedded Programming: RISC-V and STM32 Bare-Metal Development.
+*   **Key Topics**: Toolchain Setup, Register Programming, Interrupt Handling, Embedded HAL, FFI, Mixed Compilation.
+*   **Labs**: LED Control, UART Communication, Sensor Reading, PWM Generation, ADC Data Acquisition.
+
+### [07_Data_Structures](./07_Data_Structures/)
+Data Structures and Algorithms: Foundations of Efficient Programming.
+*   **Key Topics**: Complexity Analysis, Arrays, Linked Lists, Trees, Hash Tables, Graph Algorithms, Advanced Data Structures.
+*   **Labs**: Dynamic Array Implementation, Binary Search Tree, Hash Table, Graph Traversal, Advanced Data Structures.
+
+### [08_C_RISC_V_Assembly](./08_C_RISC_V_Assembly/)
+C Language and RISC-V Assembly: Bridging High-Level and Low-Level Programming.
+*   **Key Topics**: C Language Core, RISC-V Instruction Set, Assembly Basics, C-Assembly Correspondence, Function Calling Conventions, Mixed Programming, System Calls, Optimization Techniques.
+*   **Labs**: Toolchain Setup, Assembly Programming, C-Assembly Analysis, Optimization Practice, Mixed Programming, System Calls, RISC-V Emulator Implementation.
+
+### [09_Compilers](./09_Compilers/)
+Compiler Principles and RISC-V Backend: Understanding and Extending Compilers.
+*   **Key Topics**: Compiler Architecture, GCC Backend Structure, Intermediate Representations (GIMPLE/RTL), Instruction Selection, Code Generation, Custom Instruction Extension, ELF File Format, Linker Operation.
+*   **Labs**: GCC/RISC-V Toolchain Setup, GCC Backend Architecture Analysis, Custom Instruction Set Extension, Instruction Selection Optimization, Linker and ELF File Analysis, Complete Custom Instruction Support.
+
+### [10_Bootloader_Development](./10_Bootloader_Development/)
+Bootloader Development and System Boot: From Hardware Initialization to Kernel Launch.
+*   **Key Topics**: Bootloader Workflow, RISC-V Privilege Mode Switching (M→S), Device Tree (DT) Basics, UART/DDR/GPIO Initialization, Kernel Image Loading, OpenSBI Integration.
+*   **Labs**: RISC-V Bootloader Environment Setup, Hardware Initialization and Privilege Switching, Kernel Loading and Device Tree Processing, Complete Bootloader Implementation for Custom RISC Softcore.
 
 ## 🤖 AI-Assisted Methodology
 
